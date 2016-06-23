@@ -65,13 +65,13 @@ namespace Lg.WebSite.Web
             //~/Bundles/css
             bundles.Add(
                 new StyleBundle("~/Bundles/css")
-                    .Include("~/css/main.css")
+                    .Include("~/css/main.css", "~/css/bootstrap.css", "~/css/style.css")
                 );
 
             //~/Bundles/js
             bundles.Add(
                 new ScriptBundle("~/Bundles/js")
-                    .Include("~/js/main.js")
+                    .Include("~/js/main.js", "~/js/jquery.min.js")
                 );
         }
     }

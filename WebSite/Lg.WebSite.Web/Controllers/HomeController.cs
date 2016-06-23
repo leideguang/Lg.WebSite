@@ -10,5 +10,5 @@ namespace Lg.WebSite.Web.Controllers
         {
             return View();
         }
-	}
+    }
 }
