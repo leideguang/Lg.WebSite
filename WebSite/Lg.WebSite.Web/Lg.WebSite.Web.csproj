@@ -346,7 +346,6 @@
     <Content Include="images\a2.jpg" />
     <Content Include="images\a3.jpg" />
     <Content Include="images\a4.jpg" />
-    <Content Include="images\abp-logo.png" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\flags\famfamfam-flags.css" />
     <Content Include="Content\flags\famfamfam-flags.png" />
@@ -428,6 +427,7 @@
     <Content Include="fonts\Play-Regular.ttf" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\Lg.WebSite.Web.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\PublishProfiles\Web.Config.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Logs\Logs.txt" />
     <Content Include="obj\Debug\Lg.WebSite.Web.csproj.FileListAbsolute.txt" />
@@ -493,11 +493,16 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MainHomeController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\Results\ChallengeResult.cs" />
+    <Compile Include="Controllers\ReviewsController.cs" />
     <Compile Include="Controllers\TenantsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="HtmlHelp\HtmlHelpers.cs" />
     <Compile Include="Models\Layout\UserMenuOrLoginLinkViewModel.cs" />
     <Compile Include="Models\Account\LoginFormViewModel.cs" />
     <Compile Include="Models\Account\LoginViewModel.cs" />
@@ -537,6 +542,13 @@
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Shared\_MainLayout.cshtml" />
     <Content Include="Views\MainHome\Index.cshtml" />
+    <Content Include="Views\Error\ErrorPage.cshtml" />
+    <Content Include="Views\Shared\_MainTopBar.cshtml" />
+    <Content Include="Views\Shared\_MainBottom.cshtml" />
+    <Content Include="Views\Reviews\Index.cshtml" />
+    <Content Include="Views\News\Index.cshtml" />
+    <Content Include="Views\Gallery\Index.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

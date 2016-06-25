@@ -65,7 +65,7 @@ namespace Lg.WebSite.Web
             //~/Bundles/css
             bundles.Add(
                 new StyleBundle("~/Bundles/css")
-                    .Include("~/css/main.css", "~/css/bootstrap.css", "~/css/style.css")
+                    .Include("~/css/main.css")
                 );
 
             //~/Bundles/js
@@ -73,6 +73,9 @@ namespace Lg.WebSite.Web
                 new ScriptBundle("~/Bundles/js")
                     .Include("~/js/main.js", "~/js/jquery.min.js")
                 );
+
+            bundles.Add(new StyleBundle("~/Bundles/Home/css").Include("~/css/bootstrap.css", "~/css/style.css"));
+            bundles.Add(new ScriptBundle("~/Bundles/Home/js").Include("~/js/jquery.min.js", "~/js/bootstrap.js", "~/js/responsiveslides.min.js", "~/js/jquery.flexisel.js"));
         }
     }
 }

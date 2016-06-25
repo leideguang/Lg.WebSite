@@ -62,7 +62,7 @@ namespace Lg.WebSite.Web.Controllers
         {
             if (string.IsNullOrWhiteSpace(returnUrl))
             {
-                returnUrl = Request.ApplicationPath;
+                returnUrl = "/Home/Index";// Request.ApplicationPath;
             }
 
             return View(

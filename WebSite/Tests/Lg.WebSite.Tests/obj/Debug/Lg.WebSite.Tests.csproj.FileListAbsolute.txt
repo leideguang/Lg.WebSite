@@ -71,9 +71,9 @@ C:\Users\Administrator\Desktop\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\xunit.ex
 C:\Users\Administrator\Desktop\WebSite\Tests\Lg.WebSite.Tests\obj\Debug\Lg.WebSite.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\WebSite\Tests\Lg.WebSite.Tests\obj\Debug\Lg.WebSite.Tests.dll
 C:\Users\Administrator\Desktop\WebSite\Tests\Lg.WebSite.Tests\obj\Debug\Lg.WebSite.Tests.pdb
+F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\xunit.abstractions.dll
 F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
 F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\xunit.runner.utility.desktop.dll
-F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\xunit.abstractions.dll
 F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\Lg.WebSite.Tests.dll.config
 F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\Lg.WebSite.Tests.dll
 F:\GitProj\WebSite\Tests\Lg.WebSite.Tests\bin\Debug\Lg.WebSite.Tests.pdb

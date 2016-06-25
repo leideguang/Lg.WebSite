@@ -1,0 +1,63 @@
+﻿@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<!-- banner -->
+<div class="banner">
+    <div class="bnr2">
+    </div>
+</div>
+<!---->
+<div class="contact">
+    <div class="container">
+        @*<div class="contact-head">
+                <h2>Contact</h2>
+                <form>
+                    <div class="col-md-6 contact-left">
+                        <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                        <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                        <input type="text" class="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
+                    </div>
+                    <div class="col-md-6 contact-right">
+                        <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+                        <input type="submit" value="SEND" />
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>*@
+        <div class="contact-map">
+            <iframe src="@HttpUtility.UrlDecode("http://ditu.amap.com/search?query=石家庄&city=130100&geoobj=114.513473%7C38.048745%7C114.531283%7C38.055732")" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="address">
+            <h3>Our Locations</h3>
+            <div class="locations">
+                <ul>
+                    <li><span></span></li>
+                    <li>
+                        <div class="address-info">
+                            <h4>HeiBeiSheng,Shijiazhuang</h4>
+                            <p>Road</p>
+                            <p>States</p>
+                            <p>Phone: 15633693997</p>
+                            <p>Mail: <a href="">757611085@qq.com</a></p>
+                            <h5><a href="">Visit on Google Maps >></a></h5>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li><span></span></li>
+                    <li>
+                        <div class="address-info">
+                            <h4></h4>
+                            <p>Road</p>
+                            <p></p>
+                            <p>Phone:</p>
+                            <p>Mail: <a href="">1111111@qq.com</a></p>
+                            <h5><a href="">Visit on Google Maps >></a></h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -57,3 +57,4 @@ F:\GitProj\WebSite\Lg.WebSite.Core\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 F:\GitProj\WebSite\Lg.WebSite.Core\bin\Debug\System.Collections.Immutable.xml
 F:\GitProj\WebSite\Lg.WebSite.Core\obj\Debug\Lg.WebSite.Core.dll
 F:\GitProj\WebSite\Lg.WebSite.Core\obj\Debug\Lg.WebSite.Core.pdb
+F:\GitProj\WebSite\Lg.WebSite.Core\obj\Debug\Lg.WebSite.Core.csprojResolveAssemblyReference.cache
